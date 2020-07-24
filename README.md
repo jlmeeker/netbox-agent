@@ -117,6 +117,8 @@ network:
 #tenant:
 # driver: "file:/tmp/tenant"
 # regex: "(.*)"
+#
+# driver: "value:MyTenantValue"
 ￼
 ## Enable virtual machine support 
 # virtual:
