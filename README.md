@@ -134,6 +134,9 @@ datacenter_location:
 #
 # driver: "file:/tmp/datacenter"
 # regex: "(.*)"
+#
+# driver: "value:MyDatacenter01"
+
 
 # Enable rack location feature in Netbox
 rack_location:
@@ -143,6 +146,8 @@ rack_location:
 #
 # driver: "file:/tmp/datacenter"
 # regex: "(.*)"
+#
+# driver: "value:MyRackLocation"
 
 # Enable local inventory reporting 
 inventory: true
